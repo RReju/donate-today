@@ -24,9 +24,49 @@ button{
     
 }
 .top-banner{
+    background-color: rgba(0, 0, 0, .5);
     background-image: url(images/donation7.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    background-blend-mode: darken;
+    background-blend-mode: darken,luminosity;
 
 }
+.donation-amount{
+    text-align: center;
+}
+.donation-msg{
+    text-align: center;
+}
+.amount{
+    display: flex;
+    justify-content: center;
+}
+.amount-form{
+    text-align: center;
+    border: none;
+}
+h3{
+    margin-left: 2%;
+    margin-right: 2%;
+    padding: 25px;
+    background-color: #FAFAFA;
+    border-radius: 5%;
+}
+h3:hover{
+    background-color: #FFEEEE;
+    border: 1px solid red;
+    
+}
+input{
+    font-size: 20px;
+    padding-left: 15%;
+    padding-right: 15%;
+    outline: 0;
+    border-width: 0 0 2px;
+    border-color: #DADADA;
+    text-align: center;
+}
+.button{
+    margin-top: 20px;
+}
+
