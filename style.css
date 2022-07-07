@@ -38,6 +38,9 @@ h1{
 .donation-msg{
     text-align: center;
 }
+h2{
+    font-size: 40px;
+}
 .amount{
     display: flex;
     justify-content: center;
@@ -47,6 +50,7 @@ h1{
     border: none;
 }
 h3{
+    font-size: 30px;
     margin-left: 2%;
     margin-right: 2%;
     padding: 25px;
@@ -80,6 +84,9 @@ h3:hover{
     justify-content: center;
     margin-bottom: 100px;
 
+}
+h4{
+    font-size: 20px;
 }
 #food{
     margin-left: 2%;
